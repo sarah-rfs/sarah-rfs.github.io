@@ -11,3 +11,13 @@ h2{
 p{
     text-align: center;
 }
+
+.profile-image{
+    border-width: 2px;
+    border-radius: 100px;
+}
+
+.background-color{
+    background-color: lavender;
+    
+}
