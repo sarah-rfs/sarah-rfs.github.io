@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    margin: 20px;
+    margin: 0px 20px 20px;
 
 }
 
@@ -26,6 +26,8 @@ p{
 
 body{
     background-color: lavender;
+    margin: 0px;
+    
     
 }
 
@@ -33,7 +35,7 @@ body{
     background-color: rgb(199, 228, 233);
     min-height:780px;
     width: 250px;
-    margin: 0px;
+    margin:0px 0px 0px;
     padding: 0px;
     
 }
