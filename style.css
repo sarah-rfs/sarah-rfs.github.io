@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    margin: 20px;
 
 }
 
@@ -12,8 +13,9 @@ p{
     text-align: center;
 }
 
-img{
+#icons{
     text-align: center;
+    padding: 5px;
 }
 
 .profile-image{
@@ -27,8 +29,14 @@ body{
     
 }
 
-/* #left-div{
-    background-color: brown;
-    height:100%;
-    width: 50px;
-} */
+#left-div{
+    background-color: rgb(199, 228, 233);
+    min-height:780px;
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#page{
+height: 200px;
+}
