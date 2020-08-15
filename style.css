@@ -1,7 +1,10 @@
-h1{
+.h1-left{
     text-align: center;
     margin: 0px 20px 20px;
 
+}
+h1{
+    text-align: center;
 }
 
 h2{
@@ -25,20 +28,39 @@ p{
 }
 
 body{
-    background-color: lavender;
+    background-color:rgb(212,224,222) ;
     margin: 0px;
     
     
 }
 
-#left-div{
-    background-color: rgb(199, 228, 233);
+.master-div{
+    display: flexbox;
+}
+
+.left-div{
+    background-color: rgb(128,181,170);
     min-height:100vh;
     width: 250px;
     margin:0px 0px 0px;
     padding: 0px;
+    display: flexbox;
+    
     
 }
-#titulo{
+.right-div{
+    background-color: rgb(212,224,222);
+    min-height: 100vh;
+    min-width:82%;
+    float: right;
+    clear: both;
+    display: flexbox;
+}
+
+#portfolio{
+    height: 150px;
+    width: 250px;
     text-align: center;
+    padding:40px;
+   
 }
