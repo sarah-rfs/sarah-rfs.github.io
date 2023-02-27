@@ -19,7 +19,6 @@ body{
 
 a:hover{
     margin-top: -5px;
-    /*background-color: rgba(206, 122, 101, 0.747);*/
 }
 
 .container{
@@ -32,9 +31,10 @@ a:hover{
 .wrapper{
     display: flex;
     align-items:start;
+    justify-content: space-around;
     width: 70%;
-    height: 70vh;
-    margin-top: auto;
+    height: 70%;
+    margin-top: none;
 }
 
 .opening{
@@ -42,7 +42,7 @@ a:hover{
     font-weight:500;
     color: #230007;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-right: 10px;
+    margin-right: 10vh;
     margin-top: 10vh;
     text-align: center;
 }
@@ -50,6 +50,7 @@ a:hover{
 .profile-img{
     width: 50vh;
     height: 40vh;
+    margin-top: 10vh;
 }
 
 .social-media{
@@ -61,4 +62,26 @@ a:hover{
     width: 10vh;
     margin-right: 15px;
     margin-top: auto;
+}
+
+
+@media(max-width:650px){
+    .container{
+
+        justify-content: center;
+        display: flexbox;
+        flex-direction: column;
+    }
+
+
+    .wrapper{
+        display: flexbox;
+        flex-direction:column-reverse;
+    }
+
+    .social-media{
+        display: flexbox;
+        flex-direction: column;
+    }
+    
 }
